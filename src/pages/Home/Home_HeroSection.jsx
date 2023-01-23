@@ -1,0 +1,106 @@
+import styled from "styled-components"
+import background from "../../img/homeBackground2.png"
+
+export default function Home_HeroSection() {
+    return (
+        <Container>
+            <img src={background} />
+        
+                <div className="text">
+                    <h1>
+                        Liberte{<br></br>} sua{<br></br>} imaginação
+                        <p>Full Stack Developer</p>
+                    </h1>
+                </div>
+                <div className="centerButton">
+                    <button>Começar</button>
+                </div>
+
+
+        </Container>
+    )
+}
+
+const Container = styled.div`
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+
+    .text{
+        z-index: 2;
+        display: flex;
+        padding-left: 70px;
+
+                h1{
+                    font-size: 8rem;
+                    font-weight: 700;
+                    line-height: 10rem;
+                    background: -webkit-linear-gradient(0,rgba(240, 123, 44, 1) 0, rgba(156, 47, 228, 1) 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                p{
+                    font-size: 4rem;
+                    font-weight: 300;
+                    display: block;
+                }
+
+    }
+
+    .centerButton{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 40;
+   
+        button{
+            background: linear-gradient(109.16deg, rgba(239, 239, 239, 0.4) 0.9%, rgba(239, 239, 239, 0.1) 100%),
+            linear-gradient(108.55deg, rgba(255, 255, 255, 0.4) 2.18%, rgba(255, 255, 255, 0.1) 98.5%);
+            border: 2px solid;
+            border-image-source: linear-gradient(108.55deg, rgba(255, 255, 255, 0.4) 2.18%, rgba(255, 255, 255, 0.1) 98.5%);
+            backdrop-filter: blur(3px);
+            border-radius: 16px;
+            padding: 24px 48px;
+            font-size: 2.4rem;
+            color: #FFFFFF;
+            cursor: pointer;
+        }      
+    }
+
+  
+ 
+   img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top ;
+        position: absolute;
+        top: 0;
+        right: 0;
+   }
+
+@media(max-width: 1000px) {
+    img{
+        object-position: 75%;
+    }
+}
+
+@media(max-width: 670px) {
+  .text{
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15rem;
+  }
+}
+
+`
+
+
+
