@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Footer from "../../components/Footer"
 import GradientLine from "../../components/GradientLine"
 import Home_HeroSection from "./Home_HeroSection"
 import Home_Section2 from "./Home_Section2"
@@ -9,17 +10,19 @@ export default function Home() {
     return (
         <Container>
             <Home_HeroSection />
-            <GradientLine margin={-25} margintop={50} />
-            <GradientLine margin={13} margintop={88} />
-            <GradientLine margin={45} margintop={88} />
+            <GradientLine margin={-25} margintop={5} />
+            <GradientLine margin={13} margintop={8} />
+            <GradientLine margin={45} margintop={8} />
             <Home_Section2 />
             <GradientLine margin={9} margintop={0} />
             <h2 className="title3">Principais Projetos</h2>
             <Home_Section3 />
             <GradientLine margin={-25} margintop={0} />
-            <GradientLine margin={13} margintop={88} />
-            <GradientLine margin={45} margintop={88} />
+            <GradientLine margin={13} margintop={8} />
+            <GradientLine margin={45} margintop={8} />
             <Home_Section4 />
+
+            <Footer />
         </Container>
     )
 }
@@ -31,6 +34,7 @@ const Container = styled.div`
     background-color: #111111;
     font-size: 4rem;
     overflow: hidden;
+    color: #FFFFFF;
 
   
     .title3{
