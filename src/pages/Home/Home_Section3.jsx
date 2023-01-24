@@ -7,6 +7,7 @@ export default function Home_Section3() {
         <Container>
             <div className="Box">
                 <div className="span span1" >
+                    <p>MyMovie</p>
                     <img src={test} />
                 </div>
                 <div className="span span2">
@@ -24,25 +25,22 @@ export default function Home_Section3() {
                 <div  className="span span6">
                     <img src={test} />
                 </div>
-                <div  className="span span7">
-                    <img src={test} />
-                </div>
-              
-           
             </div>
-
         </Container>
     )
 }
 
 const Container = styled.div`
     width: 100% ;
-    margin-top: 30vw;
-    margin-bottom: 100vh;
+    margin-top: 18vw;
+    margin-bottom: 35vw;
     display: flex;
     align-items:center;
     justify-content: center;
+    color: #FFFFFF;
+    font-size: 2rem;
 
+    
     .Box{
         width: 25vw;
         height: 20vw;
@@ -59,6 +57,11 @@ const Container = styled.div`
         100%{
             transform: perspective(50vw) rotateY(360deg);
         }
+    }
+
+    p{
+        z-index: 5;
+        margin-top: -2rem;
     }
 
     .span{

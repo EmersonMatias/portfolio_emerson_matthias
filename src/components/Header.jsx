@@ -20,7 +20,7 @@ const Container = styled.div`
     height: 40px;
     font-size: 1.4rem;
     font-weight: 700;
-    padding: 0 80px;
+    padding: 0 5rem;
     margin-top: 8px;
     display: flex;
     position: absolute;
@@ -39,7 +39,7 @@ const Container = styled.div`
 
 
 @media(max-width: 770px) {
-    padding: 0 40px;
+    padding: 0 4rem;
 
 }
 `
