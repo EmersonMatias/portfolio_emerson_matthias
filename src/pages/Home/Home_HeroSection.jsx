@@ -32,12 +32,12 @@ const Container = styled.div`
     .text{
         z-index: 2;
         display: flex;
-        padding-left: 70px;
+        padding-left: 7rem;
 
                 h1{
-                    font-size: 8rem;
+                    font-size: 14rem;
                     font-weight: 700;
-                    line-height: 10rem;
+                    line-height: normal;
                     background: -webkit-linear-gradient(0,rgba(240, 123, 44, 1) 0, rgba(156, 47, 228, 1) 100%);
                     background-clip: text;
                     -webkit-background-clip: text;
@@ -47,9 +47,7 @@ const Container = styled.div`
                 p{
                     font-size: 4rem;
                     font-weight: 300;
-                    display: block;
                 }
-
     }
 
     .centerButton{
@@ -58,6 +56,8 @@ const Container = styled.div`
         align-items: center;
         justify-content: center;
         z-index: 40;
+        margin-top: 5rem;
+        margin-bottom: -5rem;
    
         button{
             background: linear-gradient(109.16deg, rgba(239, 239, 239, 0.4) 0.9%, rgba(239, 239, 239, 0.1) 100%),
@@ -67,7 +67,7 @@ const Container = styled.div`
             backdrop-filter: blur(3px);
             border-radius: 16px;
             padding: 24px 48px;
-            font-size: 2.4rem;
+            font-size: 3rem;
             color: #FFFFFF;
             cursor: pointer;
         }      

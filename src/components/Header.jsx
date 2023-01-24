@@ -18,10 +18,10 @@ export default function Header(){
 const Container = styled.div`
     width: 100%;
     height: 40px;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 700;
-    padding: 0 5rem;
-    margin-top: 8px;
+    padding: 0 8rem;
+    margin-top: 0.8rem;
     display: flex;
     position: absolute;
     align-items: center;

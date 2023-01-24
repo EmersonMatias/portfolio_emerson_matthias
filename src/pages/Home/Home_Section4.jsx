@@ -44,13 +44,13 @@ const Container = styled.div`
         margin-top: 5vw;
         img{
             margin-left: 2vw;
-            height: 4rem;
-            width: 4rem,;
+            height: 6rem;
+            width: 6rem,;
         }
 
         .mongo{
           
-            width: 9rem;
+            width: 14rem;
         }
     }
 

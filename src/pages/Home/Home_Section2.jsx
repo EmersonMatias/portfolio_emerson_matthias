@@ -22,8 +22,8 @@ const Container = styled.div`
     margin-bottom: 15rem;
 
         .message{
-            font-size: 2.4rem;
-            line-height: 3.6rem;
+            font-size: 4rem;
+            line-height: 4.5rem;
             text-align: center;
             padding: 0 10vw;
             color: #FFFFFF;
@@ -37,16 +37,16 @@ const Container = styled.div`
         }
 
         button{
-            max-width: 25rem;
+            max-width: 40rem;
             width: 35vw;
-            height: 64px;
+            height: 6.4rem;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
             linear-gradient(270deg, rgba(156, 47, 228, 0.1) 0%, rgba(240, 123, 44, 0.4) 100%);
             border: none;
             border-radius: 8px;
             color: #FFFFFF;
             font-weight: 600;
-            font-size: 1.5rem;
+            font-size: 2.4rem;
             margin-left: 4rem;
         }
 
@@ -54,6 +54,5 @@ const Container = styled.div`
             background: linear-gradient(270deg, rgba(156, 47, 228, 0.3) 0%, rgba(240, 123, 44, 0.6) 100%),
                     linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
                     linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-
         }
 `

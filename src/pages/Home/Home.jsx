@@ -32,10 +32,9 @@ export default function Home() {
 const Container = styled.div`
     width: 100%;
     background-color: #111111;
-    font-size: 4rem;
+    font-size: 5.6rem;
     overflow: hidden;
     color: #FFFFFF;
-
   
     .title3{
         margin-top: 5vw;

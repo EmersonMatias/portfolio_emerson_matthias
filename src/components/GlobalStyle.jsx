@@ -18,7 +18,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 62.5%;
+	font-size: 50%;
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Lato', sans-serif;
@@ -50,34 +50,43 @@ table {
 *{
 	box-sizing: border-box;
 }
+html{
+	font-size: 62.5%;
+}
 
 @media(max-width: 1000px) {
-
-html{
-	font-size: 80%;
-}
-}
-
-@media(max-width: 670px) {
-
-html{
-	font-size: 65%;
-}
-}
-
-@media(max-width: 600px) {
 
 html{
 	font-size: 50%;
 }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 670px) {
 
 html{
-	font-size: 40%;
+	font-size: 45%;
 }
 }
 
+@media(max-width: 600px) {
+
+html{
+	font-size: 35%;
+}
+}
+
+@media(max-width: 480px) {
+
+html{
+	font-size: 30%;
+}
+}
+
+@media(max-width: 400px) {
+
+html{
+	font-size: 20%;
+}
+}
 
 `
