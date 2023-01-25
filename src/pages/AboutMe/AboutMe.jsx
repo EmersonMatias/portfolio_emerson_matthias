@@ -35,10 +35,11 @@ const Container = styled.div`
     }
 
 @media(max-width: 1000px) {
-    
+
 
     .mainContent{
         flex-direction: column;
+        padding: 0 8vw;
     }
 }
 `

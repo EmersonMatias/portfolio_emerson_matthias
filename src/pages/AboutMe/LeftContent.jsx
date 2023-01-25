@@ -48,7 +48,7 @@ const Container = styled.div`
 @media(max-width: 1000px) {
     width: 100%;
     margin-left: 0;
-    padding: 0 5vw;
+  
     
     h2{
         margin-bottom: 2rem;

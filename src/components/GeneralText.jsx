@@ -52,7 +52,7 @@ const Container = styled.div`
         justify-content: center;
 
         .text{
-            width: 50%;
+            width: 100%;
         }
 
         h3{
@@ -62,7 +62,6 @@ const Container = styled.div`
         p{
             font-size: 2.5rem;
             line-height: 2.8rem;
-            font-weight: 300;
         }
 
         img{
