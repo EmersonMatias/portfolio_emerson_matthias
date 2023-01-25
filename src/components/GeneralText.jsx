@@ -58,6 +58,11 @@ const Container = styled.div`
         p{
             line-height: 2rem;
         }
+
+        img{
+            width: 10rem;
+            height: 10rem;
+        }
     }
 
 `
