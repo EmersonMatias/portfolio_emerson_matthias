@@ -52,11 +52,16 @@ const Container = styled.div`
         justify-content: center;
 
         .text{
-            width: 45%;
+            width: 50%;
+        }
+
+        h3{
+            line-height: 3.8rem;
         }
     
         p{
-            line-height: 2rem;
+            font-size: 2.5rem;
+            line-height: 2.8rem;
         }
 
         img{
