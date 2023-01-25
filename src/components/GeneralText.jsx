@@ -22,7 +22,7 @@ const Container = styled.div`
     margin-bottom: 4.8rem;
 
     .text{
-        width: 30vw;
+        width: 100%;
     }
 
     h3{
@@ -51,9 +51,7 @@ const Container = styled.div`
         margin-top: 5vw;
         justify-content: center;
 
-        .text{
-            width: 100%;
-        }
+
 
         h3{
             line-height: 3.8rem;

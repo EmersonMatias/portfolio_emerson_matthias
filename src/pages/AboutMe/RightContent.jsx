@@ -18,7 +18,7 @@ export default function RightContent() {
 }
 
 const Container = styled.div`
-    width: 41%;
+    width: 50%;
     background-color: black;
     margin-right: 5vw;
 
