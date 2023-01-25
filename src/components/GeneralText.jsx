@@ -37,7 +37,7 @@ const Container = styled.div`
     }
 
     p{
-        font-size: 1.7rem;
+        font-size: 2rem;
         line-height: 2.4rem;
     }
 
@@ -55,6 +55,9 @@ const Container = styled.div`
             width: 45%;
         }
     
+        p{
+            line-height: 2rem;
+        }
     }
 
 `

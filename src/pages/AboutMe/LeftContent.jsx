@@ -50,7 +50,16 @@ const Container = styled.div`
     margin-left: 0;
     padding: 0 5vw;
     
+    h2{
+        margin-bottom: 2rem;
+    }
 
+    .image{
+        width: 40vw;
+        height: 40vw;
+    
+
+    }
    
 }
     
