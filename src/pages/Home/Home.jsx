@@ -1,3 +1,4 @@
+
 import styled from "styled-components"
 import Footer from "../../components/Footer"
 import GradientLine from "../../components/GradientLine"
@@ -7,6 +8,7 @@ import Home_Section3 from "./Home_Section3"
 import Home_Section4 from "./Home_Section4"
 
 export default function Home() {
+
     return (
         <Container>
             <Home_HeroSection />

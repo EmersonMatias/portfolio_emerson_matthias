@@ -28,11 +28,12 @@ const Container = styled.div`
     flex-direction: column;
     position: relative;
     justify-content: center;
-
+  
     .text{
         z-index: 2;
         display: flex;
         padding-left: 7rem;
+
 
                 h1{
                     font-size: 14rem;

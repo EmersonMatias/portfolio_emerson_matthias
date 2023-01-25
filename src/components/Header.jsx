@@ -1,15 +1,18 @@
+import { useNavigate } from "react-router-dom"
 import styled from "styled-components"
 
 export default function Header(){
+    const navigate = useNavigate()
+
     return(
         <Container>
             <h2>
                 Emerson Matthias
             </h2>
             <div>
-                <p>Inicio</p>
+                <p onClick={() => navigate("/")}>Inicio</p>
                 <p>Projetos</p>
-                <p>Sobre mim</p>
+                <p onClick={() => navigate("/sobremim")}>Sobre mim</p>
             </div>
         </Container>
     )
@@ -34,6 +37,7 @@ const Container = styled.div`
 
         p{
             margin-left: 24px;
+            cursor: pointer;
         }
     }
 
