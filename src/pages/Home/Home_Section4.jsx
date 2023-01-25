@@ -17,7 +17,6 @@ export default function Home_Section4() {
                 <img src={reactIcon}/>
                 <img src={nodeIcon}/>
                 <img src={mongoIcon} className="mongo"/>
-
             </div>
         </Container>
     )
@@ -30,6 +29,7 @@ const Container = styled.div`
     align-items: center;
 
     h2{
+        font-size: 4rem;
         margin-top: 5vw;
         text-align: center;
         font-weight: 600;
@@ -41,16 +41,16 @@ const Container = styled.div`
     }
 
     .tecnologiesList{
-        margin-top: 5vw;
+        margin-top: 2vw;
         img{
             margin-left: 2vw;
-            height: 6rem;
-            width: 6rem,;
+            height: 4rem;
+            width: 4rem,;
         }
 
         .mongo{
           
-            width: 14rem;
+            width: 12rem;
         }
     }
 
