@@ -52,6 +52,7 @@ const Container = styled.div`
     
     h2{
         margin-bottom: 2rem;
+        line-height: 8.8rem;
     }
 
     .image{

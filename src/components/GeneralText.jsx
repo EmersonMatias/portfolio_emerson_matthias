@@ -62,6 +62,7 @@ const Container = styled.div`
         p{
             font-size: 2.5rem;
             line-height: 2.8rem;
+            font-weight: 300;
         }
 
         img{
