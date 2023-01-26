@@ -48,6 +48,7 @@ const Container = styled.div`
             font-weight: 600;
             font-size: 2.4rem;
             margin-left: 4rem;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
         }
 
         button:hover{
